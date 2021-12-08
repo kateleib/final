@@ -469,16 +469,11 @@ h2{
     }
 
     .apps {
-        display: grid;
-        width: 90%;
-        padding: 5px;
+        padding: 7px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         column-gap: 5px;
         row-gap: 5px;
-        font-family: Gotham, serif;
-        margin-left: auto;
-        margin-right: auto;
         max-width: 800px;
         min-width: 450px;
         max-height: 540px;
@@ -544,19 +539,11 @@ h2{
     }
     
     .headspacetext, .tentext, .calmtext{
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        vertical-align: auto;
         padding: 5px;
         justify-self: center;
         padding: 15px;
     }
 
-    .mindfoot{
-        position: static;
-    }
-    
     header{
         height: 95px;
     }
