@@ -2,7 +2,7 @@ header{
     background-color: #C1C2AD;
     font-family: Gotham, serif;
     color: black;
-    height: 95px;
+    height: 210px;
 }
 
 nav{
@@ -23,12 +23,14 @@ nav li{
     flex-wrap: wrap;
 	background-color:white;
 	padding: 8px 9px 8px 9px;
-	display: inline;
+	display: block;
     width: 100%;
-    border-radius: 20px;
     align-items: center;
     justify-content: center;
     align-content: center;
+    border-radius: 50px;
+    align-self: auto;
+    background-color: #C1C2AD;
 }
 
 .homeli{
@@ -397,6 +399,7 @@ h2{
     background-size: cover;
     border-radius: 15px;
     justify-self: center;
+    margin-bottom: 100px;
 }
 
 .ten{
@@ -455,7 +458,7 @@ h2{
         display: grid;
         width: 90%;
         padding: 15px;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 1fr);
         column-gap: 30px;
         row-gap: 40px;
@@ -530,31 +533,46 @@ h2{
         padding: 15px;
     }
 
-
-
-
-
-
-
-    footer{
+    .mindfoot{
         /*position: static;
         margin-top: 0;
         margin-bottom: 0;*/
-        position: fixed;
+        position: static;
+        margin-top: 0;
         bottom: 0;
         width: 100%;
     }
     
     header{
-        min-height: 190px;
+        height: 95px;
     }
+
     nav li{
-        border-radius: 50px;
-        display: block;
+        border-radius: 20px;
+        display: inline;
         align-self: auto;
-        background-color: #C1C2AD;
+        background-color: white;
     }
     
+    .homeli{
+        background-color: #E3CFF7;
+        border: 3px solid black;
+    }
+    
+    .flowsli{
+        background-color: #E3CFF7;
+        border: 3px solid black;
+    }
+    
+    .studiosli{
+        background-color: #E3CFF7;
+        border: 3px solid black;
+    }
+    
+    .mindfulnessli{
+        background-color: #E3CFF7;
+        border: 3px solid black;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -563,7 +581,7 @@ h2{
     }
 
     div p{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .apps{
