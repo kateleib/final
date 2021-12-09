@@ -459,6 +459,7 @@ h2{
     font-style: italic;
 }
 
+
 @media only screen and (min-width: 760px) {
 
     .flow{
@@ -576,7 +577,7 @@ h2{
     }
 
     .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover{
-        transform: scale(1.6);
+        transform: scale(1.4);
     }
 
 }
@@ -592,6 +593,27 @@ h2{
 
     .apps{
         column-gap: 80px;
+    }
+
+    nav li{
+        padding-right: 200px;
+    }
+
+    nav ul li{
+        padding: 12px;
+    }
+
+    nav{
+        font-size: 15px;
+        transform: scale(1.2);
+    }
+
+    nav:hover{
+        transform: scale(1.3);
+    }
+
+    .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover{
+        transform: scale(1.6);
     }
 }
 
