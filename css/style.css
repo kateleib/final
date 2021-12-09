@@ -460,7 +460,7 @@ h2{
 }
 
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 768px) {
 
     .flow{
         width: 70%;
@@ -486,8 +486,6 @@ h2{
         grid-row: 1;
         min-height: 160px;
         min-width: 160px;
-        background: url(../headspace.png);
-        background-size: cover;
         display: inline;
         object-fit: inherit;
     }
@@ -496,9 +494,7 @@ h2{
         /*grid-column: 2/span 2;*/
         grid-column: 1/span 2;
         grid-row: 1;
-        background: white;
         background-size: cover;
-        border-radius: 15px;
     }
     
     .calm{
@@ -506,8 +502,6 @@ h2{
         grid-row: 2;
         min-height: 165px;
         min-width: 165px;
-        background: url(../calmlogo.png);
-        background-size: cover;
         object-fit: inherit;
     }
     
@@ -515,9 +509,7 @@ h2{
         /*grid-column: 1/span 2;*/
         grid-column: 2/span 2;
         grid-row: 2;
-        background: white;
         background-size: cover;
-        border-radius: 15px;
     }
     
     .ten{
@@ -525,8 +517,6 @@ h2{
         grid-row: 3;
         min-height: 150px;
         min-width: 150px;
-        background: url(../ten.jpg);
-        background-size: cover;
         object-fit: inherit;
     }
     
@@ -534,9 +524,7 @@ h2{
         /*grid-column: 2/span 2;*/
         grid-column: 1/span 2;
         grid-row: 3;
-        background: white;
         background-size: cover;
-        border-radius: 15px;
     }
     
     .headspacetext, .tentext, .calmtext{
